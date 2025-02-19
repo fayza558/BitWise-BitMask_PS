@@ -3,6 +3,11 @@
 #include<algorithm>
 #define ll long long
 using namespace std;
+bool knowbit(ll n,int i)
+{
+    return (n>>i)&1;
+}
+
 int main()
 {
 
